@@ -14,7 +14,7 @@ spec:
         app: jswan-pod
     spec:
       containers:
-      - image: 483106397391.dkr.ecr.ap-northeast-2.amazonaws.com/jswan-flask:4.0
+      - image: 
         name: jswan-flask
       imagePullSecrets:
       - name: ecr-jswan-secret
